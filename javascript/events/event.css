@@ -1,0 +1,40 @@
+#parent{
+   height: 500px;
+   width: 500px;
+   border:2px solid black;
+   margin: 200px;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+
+}
+#child{
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+ 
+ }
+ #delegate {
+    height:200px;
+    width: 200px;
+    border:2px solid black;
+    padding:5px
+ }
+ #delegate p{
+    height: 50px;
+    width: 50px;
+    color:red;
+    border: 2px solid black;
+
+ }
+ #delegate h1{
+    height: 100px;
+    width: 100px;
+    color:pink;
+    border: 1px solid black;
+ }
