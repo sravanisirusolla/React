@@ -1,0 +1,70 @@
+body{
+    background-color: salmon;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calendar{
+    height:470px;
+    width: 450px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.7);
+}
+.month
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: cyan;
+    border-radius: 10px 10px 0 0;
+}
+.month h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.weekdays{
+    width:100%;
+    height: 50px;
+    display: flex;
+}
+.weekdays div{
+     font-size: 15px;
+     font-weight: bold;
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     letter-spacing: 1px;
+}
+.days{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2px;
+   
+}
+.days div{
+    font-size: 14px;
+    margin:3px;
+    width: 57.5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days div:hover:not(.empty){
+    border:1px solid white;
+    cursor:pointer;
+
+}
+.days .today{
+    background-color: aqua;
+    border:1px solid pink;
+}
